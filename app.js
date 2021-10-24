@@ -53,7 +53,8 @@ app.get('/weather', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', {
     title: 'About',
-    message: 'Web page to show weather forecast of specified location',
+    message:
+      'This is a web page created by Prasanth Venugopalan. It will give the current weather forcast of given location. It uses APIs from mapbox and weatherstack.',
   });
 });
 
